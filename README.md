@@ -2,10 +2,17 @@
 Boilerplate using Backbone, Requirejs, jquery ,Bootstrap and Less  
 A starting template application with menu tabs  
 See the [online demo](http://bbt.franckysolo-development.com/#dashboard)
-## Installation
 
+## Installation
+You must have node, grunt and bower install on your development environment  
+Install via npm :
+```console
+cd my-project
+npm install backbone-bootstrap-tabs
 ```
-comming soom...
+Then install dependencies with the command inside your project :
+```console
+bower update
 ```
 
 ## Application structure
@@ -46,7 +53,7 @@ Install your module globally
 ```
 npm install -g grunt-contrib-less
 ```
-The link the module to your application
+Then link the module to your application
 ```
 cd my-project
 npm link grunt-contrib-less
