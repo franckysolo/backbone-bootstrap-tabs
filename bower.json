@@ -1,13 +1,16 @@
 {
   "name": "backbone-bootstrap-tabs",
-  "description": "Boilerplate using Backbone, Requirejs, jquery and Bootstrap, template application with menu tabs",
+  "description": "Boilerplate using Backbone, Requirejs, Jquery, Bootstrap and Less, template application with menu tabs",
   "main": "main.js",
-  "author": {
-    "name": "franckysolo",
-    "email": "franckysolo@gmail.com",
-    "url": "http://www.franckysolo-productions.com/"
-  },
-  "license": "ISC",
+  "authors": [{       
+  	"name": "franckysolo", 
+  	"email": "franckysolo@gmail.com", 
+  	"homepage": "http://www.franckysolo-productions.com/" 
+  }],
+  "license": "MIT",
+  "moduleType": [
+    "amd"
+  ],
   "keywords": [
     "Backbone",
     "RequireJs",

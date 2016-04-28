@@ -1,7 +1,7 @@
 {
   "name": "backbone-bootstrap-tabs",
   "version": "0.1.0",
-  "description": "Boilerplate using Backbone, Requirejs, jquery and Bootstrap, template application with menu tabs",
+  "description": "Boilerplate using Backbone, Requirejs, Jquery, Bootstrap and Less, template application with menu tabs",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,7 @@
     "email": "franckysolo@gmail.com",
     "url": "http://www.franckysolo-productions.com/"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/franckysolo/backbone-bootstrap-tabs/issues"
   },
