@@ -1,6 +1,6 @@
 {
   "name": "backbone-bootstrap-tabs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Boilerplate using Backbone, Requirejs, jquery and Bootstrap, template application with menu tabs",
   "main": "main.js",
   "scripts": {
@@ -16,7 +16,11 @@
     "Jquery",
     "Bootstrap"
   ],
-  "author": "franckysolo",
+  "author": {
+    "name": "franckysolo",
+    "email": "franckysolo@gmail.com",
+    "url": "http://www.franckysolo-productions.com/"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/franckysolo/backbone-bootstrap-tabs/issues"

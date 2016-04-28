@@ -2,9 +2,11 @@
   "name": "backbone-bootstrap-tabs",
   "description": "Boilerplate using Backbone, Requirejs, jquery and Bootstrap, template application with menu tabs",
   "main": "main.js",
-  "authors": [
-    "franckysolo"
-  ],
+  "author": {
+    "name": "franckysolo",
+    "email": "franckysolo@gmail.com",
+    "url": "http://www.franckysolo-productions.com/"
+  },
   "license": "ISC",
   "keywords": [
     "Backbone",
