@@ -20,6 +20,7 @@ The application architecture schema :
 ```
 app/
 |-- assets/
+|---- less/
 |-- collections/
 |-- dist/
 |-- models/
