@@ -1,5 +1,5 @@
 # backbone-bootstrap-tabs
-Boilerplate using Backbone, Requirejs, jquery ,Bootstrap and Less
+Boilerplate using Backbone, Requirejs, jquery ,Bootstrap and Less  
 A starting template application with menu tabs
 
 ## Installation
@@ -53,7 +53,7 @@ npm link grunt-contrib-less
 ```
 ## RequireJs Compilation
 This Boilerplate is using grunt-contrib-requirejs in order to compile all your
-JavaScript application scripts in one file.
+JavaScript application scripts in one file.  
 Just run after grunt modules install/linking this commands :  
 Linking fonts and compile less to css
 ```
