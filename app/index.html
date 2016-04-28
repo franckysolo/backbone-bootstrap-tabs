@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>Boilerplate using Backbone, Requirejs, jquery and Bootstrap</title>
+<link href="dist/css/compile.css" rel="stylesheet">
+<meta name="description" content="">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			<p class="logo">
+				<img alt="Logo" src="dist/images/logo.png"  class="img-responsive">
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			<h1 class="h4">Boilerplate Application Tabs using Backbone, Requirejs, jquery and Bootstrap</h1>
+		</div>
+	</div>
+	<ul class="nav nav-tabs" role="tablist">
+    	<li role="menu" class="active">
+    		<a href="#dashboard" aria-controls="dashboard" role="tab" data-toggle="tab">
+    			<span class="glyphicon glyphicon-blackboard"></span>
+    			<span class="hidden-sm hidden-xs">Dashboard</span>
+    		</a>
+    	</li>
+    	<li role="menu">
+    		<a href="#tasks" aria-controls="tasks" role="tab" data-toggle="tab">
+    		    <span class="glyphicon glyphicon-tasks"></span>  		
+    			<span class="hidden-sm hidden-xs">Tasks</span>
+    		</a>
+    	</li>
+    	<li role="menu">
+    		<a href="#options" aria-controls="options" role="tab" data-toggle="tab">
+    		    <span class="glyphicon glyphicon-cog"></span>  		  		
+    			<span class="hidden-sm hidden-xs">Options</span>
+    		</a>
+    	</li>
+   </ul>
+   <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="dashboard"></div>
+    <div role="tabpanel" class="tab-pane" id="tasks"></div>
+    <div role="tabpanel" class="tab-pane" id="options"></div>
+  </div>
+  <div class="footer text-right">
+  	<small>Made by <a href="http://www.franckysolo-productions.com/">franckysolo-productions</a></small> 	
+  </div>
+</div>
+<script src="vendor/requirejs/require.js" data-main="main-built"></script>
+</body>
+</html>
