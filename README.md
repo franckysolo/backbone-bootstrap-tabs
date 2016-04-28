@@ -5,6 +5,12 @@ See the [online demo](http://bbt.franckysolo-development.com/#dashboard)
 
 ## Installation
 You must have node, grunt and bower install on your development environment  
+Install via bower :
+```console
+cd my-project
+bower install backbone-bootstrap-tabs -S
+```
+
 Install via npm :
 ```console
 cd my-project
@@ -55,6 +61,7 @@ For your development, you have to install some required grunt tasks modules :
 - grunt-contrib-less
 - grunt-contrib-symlink
 - grunt-contrib-requirejs
+- jshint-stylish
 
 You can add all modules you need!
 
