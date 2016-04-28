@@ -1,7 +1,7 @@
 # backbone-bootstrap-tabs
 Boilerplate using Backbone, Requirejs, jquery ,Bootstrap and Less  
-A starting template application with menu tabs
-
+A starting template application with menu tabs  
+See the [online demo](http://bbt.franckysolo-development.com/#dashboard)
 ## Installation
 
 ```
