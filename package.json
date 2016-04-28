@@ -1,6 +1,6 @@
 {
   "name": "backbone-bootstrap-tabs",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Boilerplate using Backbone, Requirejs, Jquery, Bootstrap and Less, template application with menu tabs",
   "main": "main.js",
   "scripts": {
