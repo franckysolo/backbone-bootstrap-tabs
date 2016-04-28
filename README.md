@@ -10,7 +10,7 @@ Install via npm :
 cd my-project
 npm install backbone-bootstrap-tabs
 ```
-Then install dependencies with the command inside your project :
+Then install dependencies inside your project with the command :
 ```console
 bower update
 ```
@@ -37,11 +37,10 @@ bower.json
 Gruntfile.js
 package.json
 README.md
-
 ```
 ## Using grunt
 
-For your development, you have to install some required grunt modules :
+For your development, you have to install some required grunt tasks modules :
 - grunt
 - grunt-contrib-jshint
 - grunt-contrib-less
@@ -51,11 +50,11 @@ For your development, you have to install some required grunt modules :
 You can add all modules you need!
 
 Install your module globally
-```
+```console
 npm install -g grunt-contrib-less
 ```
 Then link the module to your application
-```
+```console
 cd my-project
 npm link grunt-contrib-less
 ```
@@ -64,10 +63,10 @@ This Boilerplate is using grunt-contrib-requirejs in order to compile all your
 JavaScript application scripts in one file.  
 Just run after grunt modules install/linking this commands :  
 Linking fonts and compile less to css
-```
+```console
 grunt
 ```
 Then to compile with r.js
-```
+```console
 grunt optimize
 ```
