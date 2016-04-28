@@ -8,7 +8,7 @@ You must have node, grunt and bower install on your development environment
 Install via npm :
 ```console
 cd my-project
-npm install backbone-bootstrap-tabs
+npm install backbone-bootstrap-tabs --save-dev
 ```
 Then install dependencies inside your project with the command :
 ```console
@@ -16,13 +16,16 @@ bower update
 ```
 
 ## Application structure
-The application architecture schema :
+The application architecture directories :
 ```
 app/
 |-- assets/
 |---- less/
 |-- collections/
 |-- dist/
+|---- css/
+|---- images/
+|---- fonts/
 |-- models/
 |-- routers/
 |-- vendor/
