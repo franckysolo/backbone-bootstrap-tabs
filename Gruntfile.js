@@ -2,31 +2,28 @@
  * 
  */
 module.exports = function (grunt) {
-  
-  
-  var prefix = 'grunt-contrib-',
-    npms = [ 
-            'jshint', 
-            'less',
-            'symlink',
-            'requirejs',
-    ];
+   
+  var prefix  = 'grunt-contrib-'
+    , npms    = [ 'jshint'
+                , 'less'
+                , 'symlink'
+                , 'requirejs'
+                ];
 
   grunt.initConfig({
     
     pkg: grunt.file.readJSON('package.json'),
         
     jshint: {
-          options: {
-              reporter: require('jshint-stylish'),
-              laxcomma: true
-          },
-          target: [
-               'app/collections/*.js'
-             , 'app/models/*.js'
-             , 'app/routers/*.js'
-             , 'app/views/*.js'
-          ]
+      options: {
+          reporter: require('jshint-stylish'),
+          laxcomma: true
+      },
+      target: ['app/collections/*.js'
+              , 'app/models/*.js'
+              , 'app/routers/*.js'
+              , 'app/views/*.js'
+              ]
     },
         
     less: {
@@ -46,12 +43,10 @@ module.exports = function (grunt) {
       },  
     },
     
-
     requirejs: {
       compile: {
         options: {    
-          baseUrl: 'app',  
-          
+          baseUrl: 'app',           
           paths: {
             jquery: 'vendor/jquery/dist/jquery',
             underscore: 'vendor/underscore/underscore',
@@ -59,8 +54,7 @@ module.exports = function (grunt) {
             text: 'vendor/text/text',
             bootstrap: 'vendor/bootstrap/dist/js/bootstrap',
             templates: 'views/templates',
-          },
-          
+          },         
           name: 'main',
           out: 'app/main-built.js',
           preserveLicenseComments: false,
@@ -68,8 +62,7 @@ module.exports = function (grunt) {
           enforceDefine: false,
         }
       }
-    }
-    
+    }   
   });
   
   npms.forEach(function(key) {
