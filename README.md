@@ -10,6 +10,7 @@ Install via npm :
 cd my-project
 npm install backbone-bootstrap-tabs --save-dev
 ```
+This command will install the backbone-bootstrap-tabs application in a node_modules directory. Move or copy the content of the backbone-bootstrap-tabs directory to you root directory of your new project.  
 Then install dependencies inside your project with the command :
 ```console
 bower update
