@@ -5,10 +5,14 @@ See the [online demo](http://bbt.franckysolo-development.com/#dashboard)
 
 ## Installation
 You must have node, grunt and bower install on your development environment  
-Install via bower :
+Install via bower, run the following commands :
 ```console
 cd my-project
+bower init
 bower install backbone-bootstrap-tabs -S
+find bower_components/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
+rm -rf bower_components/backbone-bootstrap-tabs  
+bower update
 ```
 
 Install via npm :
