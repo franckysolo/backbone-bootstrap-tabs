@@ -4,8 +4,7 @@
   "description": "Boilerplate using Backbone, Requirejs, Jquery, Bootstrap and Less, template application with menu tabs",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./bin/npm.sh"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
