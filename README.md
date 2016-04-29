@@ -98,7 +98,7 @@ cp backbone-bootstrap-tabs/bin/*.sh ~/local-script/
 ```
 Make alias:
 ```console
-vi ~./bash_aliases
+vi ~/.bash_aliases
 alias npm-dev='~/local-scripts/./npm.sh'
 alias bower-dev='~/local-scripts/./bower.sh'
 ```
