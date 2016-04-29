@@ -1,35 +1,7 @@
 # backbone-bootstrap-tabs
 Boilerplate using Backbone, Requirejs, jquery ,Bootstrap and Less  
-A starting template application with menu tabs  
+A starting template for development, application with menu tabs  
 See the [online demo](http://bbt.franckysolo-development.com/#dashboard)
-
-## Installation
-You must have node, grunt and bower install on your development environment  
-Install via bower, run the following commands :
-```console
-cd my-project
-bower init
-bower install backbone-bootstrap-tabs -S
-find bower_components/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
-rm -rf bower_components/backbone-bootstrap-tabs  
-bower update
-```
-
-Install via npm :
-```console
-cd my-project
-npm install backbone-bootstrap-tabs --save-dev
-```
-This command will install the backbone-bootstrap-tabs application in a node_modules directory.   
-Move or copy the content of the backbone-bootstrap-tabs directory to you root directory of your new project.  
-```console
-find node_modules/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
-rm -rf node_modules/backbone-bootstrap-tabs
-```
-Then install dependencies inside your project with the command :
-```console
-bower update
-```
 
 ## Application structure
 The application architecture directories :
@@ -51,6 +23,9 @@ app/
 |-- index.html
 |-- main.js
 |-- main-built.js
+|-- bin/
+|---- bower.sh
+|---- npm.sh
 node_modules/
 bower.json
 Gruntfile.js
@@ -67,7 +42,7 @@ For your development, you have to install some required grunt tasks modules :
 - grunt-contrib-requirejs
 - jshint-stylish
 
-You can add all modules you need!
+You can add mores grunt modules if you need by update the Gruntfile.
 
 Install your module globally, an example with less
 ```console
@@ -89,4 +64,58 @@ grunt
 Then to compile with r.js
 ```console
 grunt optimize
+```
+
+## Installation
+You must have node, grunt and bower install on your development environment
+
+You can simply download, clone or fork the project from Github or  
+Install via bower, run the following commands :
+```console
+cd my-project
+bower init
+bower install backbone-bootstrap-tabs
+find bower_components/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
+rm -rf bower_components/backbone-bootstrap-tabs  
+bower update
+```
+
+Install via npm, use the following commands :
+```console
+cd my-project
+npm install backbone-bootstrap-tabs
+find node_modules/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
+rm -rf node_modules/backbone-bootstrap-tabs
+bower update
+```
+
+## Automating
+Two bash scripts are provided for automatic install, you can make an alias to the  script for using in command line:
+```console
+cd my-project
+npm install backbone-bootstrap-tabs
+cp backbone-bootstrap-tabs/bin/*.sh ~/local-script/
+```
+Make alias:
+```console
+vi ~./bash_aliases
+alias npm-dev='~/local-scripts/./npm.sh'
+alias bower-dev='~/local-scripts/./bower.sh'
+```
+
+The when you need to use the backbone-bootstrap-tabs Boilerplate
+for each projects you can run this commands for installation.
+
+With bower
+```console
+cd my-project
+bower install backbone-bootstrap-tabs
+bower-dev
+```
+
+With npm
+```console
+cd my-project
+npm install backbone-bootstrap-tabs
+npm-dev
 ```

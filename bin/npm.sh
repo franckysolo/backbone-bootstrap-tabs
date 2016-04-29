@@ -1,2 +1,33 @@
 #!/bin/bash
-mv backbone-bootstrap-tabs/* ../node_modules/backbone-bootstrap-tabs
+# After installation configure your dev environment with the following commands
+# command to clean up your project when you install boilerplate with npm
+
+find node_modules/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
+rm -rf node_modules/backbone-bootstrap-tabs
+
+# Install Grunt required modules
+# Maybe you have to run it with sudo! Depends on your env config
+# If modules already installed thy will be updated
+npm install -g grunt
+npm install -g grunt-contrib-jshint
+npm install -g grunt-contrib-less
+npm install -g grunt-contrib-symlink
+npm install -g grunt-contrib-requirejs
+npm install -g jshint-stylish
+
+# cd to youy-project-directory
+# And link the grunt modules
+npm link grunt
+npm link grunt-contrib-jshint
+npm link grunt-contrib-less
+npm link grunt-contrib-symlink
+npm link grunt-contrib-requirejs
+npm link jshint-stylish
+
+# Run bower to install dependecies
+bower update
+
+# Run the task runner
+grunt
+grunt optimize
+
