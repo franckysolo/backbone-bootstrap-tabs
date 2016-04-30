@@ -4,6 +4,13 @@
 find bower_components/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
 rm -rf bower_components/backbone-bootstrap-tabs
 
+#Add a .bowerrc to store js libs in app/vendor directory
+cat << __EOF > .bowerrc
+{
+  "directory" : "app/vendor"
+}
+__EOF
+
 # Install Grunt required modules
 # Maybe you have to run it with sudo! Depends on your env config
 # If modules already installed thy will be updated
