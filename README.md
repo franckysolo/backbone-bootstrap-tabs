@@ -49,11 +49,11 @@ For your development, you have to install some required grunt tasks modules :
 You can add mores grunt modules if you need by update the Gruntfile.
 
 Install your module globally, an example with less
-```console
+```sh
 npm install -g grunt-contrib-less
 ```
 Then link the module to your application
-```console
+```sh
 cd my-project
 npm link grunt-contrib-less
 ```
@@ -62,11 +62,11 @@ This Boilerplate is using grunt-contrib-requirejs in order to compile all your
 JavaScript application scripts in one file.  
 Just run after grunt modules install/linking this commands :  
 Linking fonts and compile less to css
-```console
+```sh
 grunt
 ```
 Then to compile with r.js
-```console
+```sh
 grunt optimize
 ```
 
@@ -75,7 +75,7 @@ You must have node, grunt and bower install on your development environment
 
 You can simply download, clone or fork the project from Github or  
 Install via bower, run the following commands :
-```console
+```sh
 cd my-project
 bower init
 bower install backbone-bootstrap-tabs
@@ -85,7 +85,7 @@ bower update
 ```
 
 Install via npm, use the following commands :
-```console
+```sh
 cd my-project
 npm install backbone-bootstrap-tabs
 find node_modules/backbone-bootstrap-tabs -maxdepth 1 -mindepth 1 -exec mv {} . \;
@@ -95,13 +95,13 @@ bower update
 
 ## Automating
 Two bash scripts are provided for automatic install, you can make an alias to the  script for using in command line:
-```console
+```sh
 cd my-project
 npm install backbone-bootstrap-tabs
 cp backbone-bootstrap-tabs/bin/*.sh ~/local-script/
 ```
 Make alias:
-```console
+```sh
 vi ~/.bash_aliases
 alias npm-dev='~/local-scripts/./npm.sh'
 alias bower-dev='~/local-scripts/./bower.sh'
@@ -111,14 +111,14 @@ The when you need to use the backbone-bootstrap-tabs Boilerplate
 for each projects you can run this commands for installation.
 
 With bower
-```console
+```sh
 cd my-project
 bower install backbone-bootstrap-tabs
 bower-dev
 ```
 
 With npm
-```console
+```sh
 cd my-project
 npm install backbone-bootstrap-tabs
 npm-dev
