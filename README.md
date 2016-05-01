@@ -123,9 +123,12 @@ cd my-project
 npm install backbone-bootstrap-tabs
 npm-dev
 ```
+## License
+
+[MIT](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/npm.svg
 [npm-url]: https://npmjs.org/package/backbone-bootstrap-tabs
 
 [bower-image]: https://img.shields.io/bower/v/bootstrap.svg
-[bower-url]: https://bower.io/package/backbone-bootstrap-tabs
+[bower-url]: https://bower.herokuapp.com/packages/backbone-bootstrap-tabs
