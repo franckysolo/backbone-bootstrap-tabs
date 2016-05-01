@@ -1,4 +1,8 @@
 # backbone-bootstrap-tabs
+
+[![NPM Version][npm-image]][npm-url]
+[![Bower Version][bower-image]][bower-url]
+
 Boilerplate using Backbone, Requirejs, jquery ,Bootstrap and Less  
 A starting template for development, application with menu tabs  
 See the [online demo](http://bbt.franckysolo-development.com/#dashboard)
@@ -119,3 +123,9 @@ cd my-project
 npm install backbone-bootstrap-tabs
 npm-dev
 ```
+
+[npm-image]: https://img.shields.io/npm/v/npm.svg
+[npm-url]: https://npmjs.org/package/backbone-bootstrap-tabs
+
+[bower-image]: https://img.shields.io/bower/v/bootstrap.svg
+[bower-url]: https://bower.io/package/backbone-bootstrap-tabs
